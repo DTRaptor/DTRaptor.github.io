@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Paint Game</title>
+<link ref="css/stylesheet" type="stylesheet" href="css/stylesheet-1">
+</head>
+<body>
+<h1>PaintGame (V: 1.0)</h1>
+<p>PaintGame is a small program I've created in GMS2.</p>
+<p>It is currently in version 1.0, and is still being worked on.</p>
+<ul>
+<p>download PaintGame</p>
+<p>updates</p>
+</ul>
+</body>
+</html>
