@@ -8,21 +8,18 @@ body {
   border-radius: 16px;
   font-family: sans-serif;
   margin: auto;
-  /*vertical-align: middle;*/
   max-width: 1024px;
   min-width: 256px;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left:24px;
   padding-right: 24px;
-}
-body {
   display: table-cell;
   vertical-align: middle;
 }
 html {
   background: radial-gradient(circle, Red, Red, Red, Red);
   background-size: 8px 8px;
-
-
+  display: table;
+  margin: auto;
 }
