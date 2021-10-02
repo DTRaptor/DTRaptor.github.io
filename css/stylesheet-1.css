@@ -8,7 +8,7 @@ body {
   border-radius: 16px;
   font-family: sans-serif;
   margin: auto;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   max-width: 1024px;
   min-width: 256px;
   padding-top: 24px;
