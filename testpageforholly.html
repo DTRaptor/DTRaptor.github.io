@@ -5,12 +5,15 @@
    <link type="text/css" rel="stylesheet" href="css/stylesheet-1.css"/>
   </head>
   <body>
-    <h1>Lookie here!</h1>
+    <h1 id="changingtext">Lookie here!</h1>
     <button id="button">Press me daddy</button>
     <script>
-     button.onclick = function(event) {
-        alert("OH YEAH")
-     };
+      const changedtext = document.getElementbyID("changingtext");
+      var clicked = 0;
+      button.onclick = function(event) {
+        header.textContent "bababooey";
+        clicked ++;
+      };
     </script>
   </body>
 </html>
