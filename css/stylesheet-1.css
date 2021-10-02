@@ -1,8 +1,11 @@
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: #9effa9;
   border: 2px solid Gray;
   border-radius: 16px;
-  
   font-family: sans-serif;
   margin-left: auto;
   margin-right: auto;
