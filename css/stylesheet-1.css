@@ -1,5 +1,14 @@
 .links {
   background-color: #35951a;
+  border: 2px solid Gray;
+  border-radius: 16px;
+  font-family: sans-serif;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left:24px;
+  padding-right: 24px;
 }
 
 body {
