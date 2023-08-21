@@ -11,6 +11,20 @@
   padding-right: 24px;
 }
 
+.keegan {
+  background: rgb(26,21,98);
+  background: linear-gradient(0deg, rgba(26,21,98,1) 0%, rgba(196,210,230,1) 100%);
+  border: 2px solid Gray;
+  border-radius: 16px;
+  font-family: sans-serif;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left:24px;
+  padding-right: 24px;
+}
+
 body {
   background-color: #9effa9;
   border: 2px solid Gray;
