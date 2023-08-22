@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(0deg, rgba(200,150,150,1) 0%, rgba(255,255,255,1) 25%);
+  border: 2px solid black;
+  border-radius: 16px;
+  font-family: verdana, sans-serif;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left:50px;
+  padding-right: 50px;
+}
+h1 {
+	background: linear-gradient(0deg, rgba(26,21,98,1) 0%, rgba(196,210,230,1) 100%);
+    border: 2px solid black;
+	border-radius: 5px;
+	padding-top: 24px;
+  	padding-bottom: 24px;
+    padding-left:150px;
+ 	padding-right: 150px;
+	background-color: #000000;
+	font-family: impact, sans-serif;
+    max-width: 250px;
+  	min-width: 250px;
+}
+html {
+  background: rgb(26,21,98);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(40,40,60,1) 100%);
+  background-size: 2000px 2000px;
+}
