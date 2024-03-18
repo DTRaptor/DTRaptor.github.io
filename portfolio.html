@@ -16,24 +16,27 @@
     </div>
       <div class="title-text">
         <h1>DTRaptor</h1>
+        <div class="subtitle">
+          <p>(Dominick Green)</p>
+        </div>
         <h2>Stuff I've Made</h2>
       </div>
   </div>
   <div class="content">
-    <div class="about-me">
-      <div class="am-left-image">
+    <div class="section-title">
+      <div class="section-title-image">
         <img src="resources/RSFlagWave.gif" alt="Flag of the Raptor States">
       </div>
-      <div class="am-text">
+      <div class="section-title-text">
         <h2>About Me</h2>
       </div>
-      <div class="am-right-image">
+      <div class="section-title-image">
         <img src="resources/DTComputerCrisis.png" alt="Me when I build an entire website from scratch">
       </div>
     </div>
-    <p>Hi! My name is Dominick Green. I'm a Game Dev (arguably so, I've never actually
+    <p>Hi! My name's Dom. I'm a Game Dev (arguably so, I've never actually
       released anything very worthwhile) who has been passionate about making games
-      ever since 2019, where I began learning programming through Java and Python.
+      ever since 2019, where I began learning programming through Java and Python and began learning pixel art and other forms of digital art.
     </p>
     <p>
       Today, I mainly write games using Gamemaker Studio and Godot, but I am somewhat familiar
@@ -43,7 +46,7 @@
       <h3>Contents</h3>
       <div class="contents-flexbox">
         <div class="contents-entry">
-          <li><a href="index.html">Game Projects</a></li>
+          <a class="content-link" href="#game projects">Programming/Games</a>
         </div>
         <div class="contents-img">
           <img src="resources/Controller.png" alt="Game controller">
@@ -51,18 +54,52 @@
       </div>
       <div class="contents-flexbox">
         <div class="contents-entry">
-          <li><a href="index.html">Music</a></li>
+          <a class="content-link" href="index.html">Music</a>
         </div>
         <div class="contents-img">
-          <img src="resources/Controller.png" alt="Game controller">
+          <img src="resources/Headphones.png" alt="Game controller">
         </div>
       </div>
       <div class="contents-flexbox">
         <div class="contents-entry">
-          <li><a href="index.html">Contact me!</a></li>
+          <a class="content-link" href="index.html">Contact me!</a>
         </div>
         <div class="contents-img">
-          <img src="resources/Controller.png" alt="Game controller">
+          <img src="resources/Smartphone.png" alt="Game controller">
+        </div>
+      </div>
+    </div>
+    <div class="Games">
+      <div class="section-title">
+        <div class="section-title-image">
+          <img src="resources/yippeespin.gif" alt="Aww">
+        </div>
+        <div class="section-title-text" id="game projects">
+          <h2>Programming and Game Projects</h2>
+        </div>
+        <div class="section-title-image">
+          <img src="resources/DTGamerRage.gif" alt="DT when he can't get the bug fixed">
+        </div>
+      </div>
+      <p>This is a list of some of my best game making or other programming projects, in no particular order. Most were made with Gamemaker Studio 2 or Godot. Download links (.exe only, sorry) and Github repos can be found with each project.</p>
+      <div class="portfolio-entry">
+        <h3 class="entry-title">3D But Not 3D Platformer?? (WIP)</h3>
+        <div class="entry-flex">
+          <img class="entry-img" src="resources/imgscalertest.png" alt="huh">
+          <div class="entry-info">
+            <p>I began this project in Godot after viewing a video by Brandon James Greer, <a href="https://youtu.be/133Qk9kVyVA">in particular this one.</a> 
+              I liked the idea of a 3d platformer game like Mario or Kirby in the style of an older 2d platformer and so I prototyped this demo with this little character. The sprite is a billboard sprite
+              (similar to way enemies were rendered in the original DOOM and Wolfenstein games) which changes what direction sprite is being used by adding the direction of the
+              camera and the player's direction (plus some orientation tweaking) and applying it to an animation blendspace which transitions the sprite from there. The end result
+              is a good mix between a 2d style and 3d perspective that I was aiming for. I spent a lot of time on movement, making sure that it felt as fun to play with as possible.
+              I would like to flesh out this game some more, potentially figuring out some gameplay mechanics to add to it (I tried a dash feature, however it was not fun to control
+              in 3d) I believe this could turn into something great if I put enough effort into it!!.
+            </p>
+            <div class="links">
+              <a class="link" href="index.html">View Github Repository</a>
+              <a class="link" href="portfolio.html">Download (.exe)</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
