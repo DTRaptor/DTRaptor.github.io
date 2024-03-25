@@ -124,5 +124,30 @@ video {
 .contacts {
     display: flex;
     padding: 10px;
-    margin: 100px;
+}
+.contacts-image {
+    padding: 10px 100px 0 100px;
+}
+.footer {
+    
+    position:fixed;
+    padding: 10px;
+    margin-right: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c7c7c7;
+    color: black;
+    text-align: center;
+}
+.fflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright {
+    padding: 10px;
+}
+.flink {
+    padding: 10px;
 }
